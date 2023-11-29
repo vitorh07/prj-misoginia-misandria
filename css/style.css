@@ -1,0 +1,150 @@
+.body{
+    background-color: white;
+    position:fixed;
+}
+.top {
+    background-color:cadetblue;
+    position: fixed; top: 0; left: 0; bottom: 0;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.bottom{
+    background-color:cadetblue;
+    position: fixed; left:0; bottom:0;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.top a{
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.h1{
+    color: black;
+    
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    padding-left: 5vw;
+    font-size: xx-large;
+}
+
+.divJ{
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.divJ2{
+    border: 2px solid black;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.divG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.divM{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+    color: cadetblue;
+}
+
+.divMi{
+    display: flex;
+    width: 70vw;
+    height: 77vh;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.h3{
+    margin-bottom: 2px;
+    font-size: 22px;
+    margin-left: 5px;
+    text-decoration: underline 2.5px cadetblue;
+}
+
+.p{
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    width: 70vw;
+    height: 77vh;
+    
+}
+
+.jogo2{
+    display: flex;
+    width: 70vw;
+    height: 77vh;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.fonte{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    margin-left: 15vw;
+    color: cadetblue;
+}

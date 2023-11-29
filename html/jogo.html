@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+</head>
+<body class="body">
+    <div class="top">
+        <a class="a" href="../index.html" target="_self">Página inicial</a>
+        <a class="a" href="../html/misoginia.html" target="_self">Misoginia</a>
+        <a class="a" href="../html/misandria.html" target="_self">Misandria</a>
+        <a class="a" href="../html/Jogo.html" target="_self">Jogo</a>
+    </div>
+
+    <h1 class="fonte">Associe cada um com suas respectivas características</h1>
+
+    <div class="jogo">
+    <div class="jogo2">
+        <div class="divJ" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart="drag(event)" id="drag1">Misoginia</p>
+        </div>
+
+        <div class="divJ" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart="drag(event)" id="drag2" >Misandria</p>
+        </div>
+
+        <div class="divJ" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart="drag(event)" id="drag3" >Misoginia</p>
+        </div>
+
+        <div class="divJ" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart="drag(event)" id="drag4">Misandria</p>
+        </div>
+    </div>
+
+    <div class="jogo2">
+        <div class="divJ" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="divJ" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="divJ" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="divJ" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div class="jogo2">
+        <div class="divJ2" id="1">
+            <p>Utilizado para descrever o ódio, o medo e a raiva injustificada contra os homens</p>
+        </div>
+        
+        <div class="divJ2" id="2">
+            <p>Coloca as mulheres em posição de descrédito e autodepreciação</p>
+        </div>
+        
+        <div class="divJ2" id="3">
+            <p>Responsável por grande parte dos assassinatos de mulheres</p>
+        </div>
+        
+        <div class="divJ2" id="4">
+            <p>Ressentimentos decorrentes de questões históricas de poder e privilégio masculino</p>
+        </div> 
+    </div>
+
+    </div>
+
+</body>
+</html>
